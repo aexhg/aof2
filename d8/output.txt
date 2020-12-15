@@ -1,0 +1,414 @@
+Acc is 0, index 0, instruction acc, value -7
+Acc is -7, index 1, instruction acc, value 2
+Acc is -5, index 2, instruction acc, value 20
+Acc is 15, index 3, instruction acc, value 14
+Acc is 29, index 4, instruction jmp, value 191
+Acc is 29, index 195, instruction acc, value 27
+Acc is 56, index 196, instruction acc, value 31
+Acc is 87, index 197, instruction nop, value -29
+Acc is 87, index 198, instruction jmp, value 1
+Acc is 87, index 199, instruction jmp, value 250
+Acc is 87, index 449, instruction jmp, value -153
+Acc is 87, index 296, instruction acc, value 11
+Acc is 98, index 297, instruction acc, value -18
+Acc is 80, index 298, instruction jmp, value -186
+Acc is 80, index 112, instruction acc, value -6
+Acc is 74, index 113, instruction nop, value 494
+Acc is 74, index 114, instruction acc, value -9
+Acc is 65, index 115, instruction jmp, value -63
+Acc is 65, index 52, instruction acc, value 36
+Acc is 101, index 53, instruction acc, value -12
+Acc is 89, index 54, instruction jmp, value 50
+Acc is 89, index 104, instruction nop, value 178
+Acc is 89, index 105, instruction acc, value 12
+Acc is 101, index 106, instruction acc, value 45
+Acc is 146, index 107, instruction jmp, value 461
+Acc is 146, index 568, instruction acc, value 38
+Acc is 184, index 569, instruction nop, value -425
+Acc is 184, index 570, instruction jmp, value -440
+Acc is 184, index 130, instruction acc, value 20
+Acc is 204, index 131, instruction acc, value 25
+Acc is 229, index 132, instruction jmp, value 425
+Acc is 229, index 557, instruction acc, value -12
+Acc is 217, index 558, instruction acc, value 22
+Acc is 239, index 559, instruction acc, value 27
+Acc is 266, index 560, instruction jmp, value -176
+Acc is 266, index 384, instruction acc, value 0
+Acc is 266, index 385, instruction jmp, value -211
+Acc is 266, index 174, instruction acc, value 32
+Acc is 298, index 175, instruction acc, value 38
+Acc is 336, index 176, instruction acc, value 2
+Acc is 338, index 177, instruction jmp, value -93
+Acc is 338, index 84, instruction acc, value 34
+Acc is 372, index 85, instruction jmp, value 515
+Acc is 372, index 600, instruction jmp, value 1
+Acc is 372, index 601, instruction nop, value 43
+Acc is 372, index 602, instruction jmp, value -65
+Acc is 372, index 537, instruction nop, value -528
+Acc is 372, index 538, instruction jmp, value -495
+Acc is 372, index 43, instruction nop, value 17
+Acc is 372, index 44, instruction acc, value 25
+Acc is 397, index 45, instruction acc, value -15
+Acc is 382, index 46, instruction jmp, value 285
+Acc is 382, index 331, instruction acc, value 46
+Acc is 428, index 332, instruction acc, value -9
+Acc is 419, index 333, instruction jmp, value -174
+Acc is 419, index 159, instruction jmp, value 1
+Acc is 419, index 160, instruction acc, value 20
+Acc is 439, index 161, instruction acc, value 4
+Acc is 443, index 162, instruction acc, value 25
+Acc is 468, index 163, instruction jmp, value -87
+Acc is 468, index 76, instruction acc, value -18
+Acc is 450, index 77, instruction acc, value 15
+Acc is 465, index 78, instruction acc, value -8
+Acc is 457, index 79, instruction acc, value -3
+Acc is 454, index 80, instruction jmp, value 46
+Acc is 454, index 126, instruction nop, value 402
+Acc is 454, index 127, instruction jmp, value 381
+Acc is 454, index 508, instruction jmp, value -200
+Acc is 454, index 308, instruction jmp, value 152
+Acc is 454, index 460, instruction acc, value -11
+Acc is 443, index 461, instruction nop, value 82
+Acc is 443, index 462, instruction acc, value 7
+Acc is 450, index 463, instruction acc, value 40
+Acc is 490, index 464, instruction jmp, value 79
+Acc is 490, index 543, instruction acc, value -2
+Acc is 488, index 544, instruction acc, value 41
+Acc is 529, index 545, instruction jmp, value -475
+Acc is 529, index 70, instruction acc, value -4
+Acc is 525, index 71, instruction jmp, value 292
+Acc is 525, index 363, instruction acc, value -5
+Acc is 520, index 364, instruction jmp, value -304
+Acc is 520, index 60, instruction jmp, value 1
+Acc is 520, index 61, instruction nop, value 210
+Acc is 520, index 62, instruction acc, value -15
+Acc is 505, index 63, instruction acc, value -6
+Acc is 499, index 64, instruction jmp, value 446
+Acc is 499, index 510, instruction acc, value 8
+Acc is 507, index 511, instruction acc, value 48
+Acc is 555, index 512, instruction acc, value 15
+Acc is 570, index 513, instruction acc, value 0
+Acc is 570, index 514, instruction jmp, value -493
+Acc is 570, index 21, instruction acc, value 15
+Acc is 585, index 22, instruction jmp, value 452
+Acc is 585, index 474, instruction acc, value 0
+Acc is 585, index 475, instruction acc, value 4
+Acc is 589, index 476, instruction jmp, value 20
+Acc is 589, index 496, instruction jmp, value -67
+Acc is 589, index 429, instruction acc, value 48
+Acc is 637, index 430, instruction acc, value -3
+Acc is 634, index 431, instruction jmp, value -55
+Acc is 634, index 376, instruction acc, value 24
+Acc is 658, index 377, instruction acc, value -10
+Acc is 648, index 378, instruction acc, value 21
+Acc is 669, index 379, instruction jmp, value -97
+Acc is 669, index 282, instruction acc, value -14
+Acc is 655, index 283, instruction acc, value 38
+Acc is 693, index 284, instruction acc, value 50
+Acc is 743, index 285, instruction acc, value -7
+Acc is 736, index 286, instruction jmp, value 197
+Acc is 736, index 483, instruction acc, value 29
+Acc is 765, index 484, instruction acc, value -13
+Acc is 752, index 485, instruction jmp, value 77
+Acc is 752, index 562, instruction acc, value -15
+Acc is 737, index 563, instruction acc, value 14
+Acc is 751, index 564, instruction acc, value 30
+Acc is 781, index 565, instruction acc, value 0
+Acc is 781, index 566, instruction jmp, value -363
+Acc is 781, index 203, instruction jmp, value 72
+Acc is 781, index 275, instruction acc, value -2
+Acc is 779, index 276, instruction jmp, value -265
+Acc is 779, index 11, instruction acc, value 24
+Acc is 803, index 12, instruction jmp, value 220
+Acc is 803, index 232, instruction jmp, value 80
+Acc is 803, index 312, instruction jmp, value 102
+Acc is 803, index 414, instruction acc, value 5
+Acc is 808, index 415, instruction acc, value 45
+Acc is 853, index 416, instruction acc, value 7
+Acc is 860, index 417, instruction jmp, value 20
+Acc is 860, index 437, instruction nop, value 91
+Acc is 860, index 438, instruction acc, value 20
+Acc is 880, index 439, instruction acc, value 18
+Acc is 898, index 440, instruction jmp, value 4
+Acc is 898, index 444, instruction nop, value -230
+Acc is 898, index 445, instruction nop, value 45
+Acc is 898, index 446, instruction acc, value 37
+Acc is 935, index 447, instruction jmp, value 127
+Acc is 935, index 574, instruction jmp, value -406
+Acc is 935, index 168, instruction jmp, value 1
+Acc is 935, index 169, instruction jmp, value 1
+Acc is 935, index 170, instruction jmp, value 167
+Acc is 935, index 337, instruction acc, value 34
+Acc is 969, index 338, instruction acc, value 24
+Acc is 993, index 339, instruction acc, value 37
+Acc is 1030, index 340, instruction acc, value 44
+Acc is 1074, index 341, instruction jmp, value -158
+Acc is 1074, index 183, instruction nop, value 164
+Acc is 1074, index 184, instruction acc, value 41
+Acc is 1115, index 185, instruction jmp, value 440
+Acc is 1115, index 625, instruction nop, value -135
+Acc is 1115, index 626, instruction acc, value 43
+Acc is 1158, index 627, instruction jmp, value -236
+Acc is 1158, index 391, instruction jmp, value -366
+Acc is 1158, index 25, instruction acc, value 10
+Acc is 1168, index 26, instruction acc, value -8
+Acc is 1160, index 27, instruction acc, value 39
+Acc is 1199, index 28, instruction jmp, value 396
+Acc is 1199, index 424, instruction nop, value 214
+Acc is 1199, index 425, instruction jmp, value -284
+Acc is 1199, index 141, instruction jmp, value -108
+Acc is 1199, index 33, instruction nop, value 181
+Acc is 1199, index 34, instruction acc, value 48
+Acc is 1247, index 35, instruction acc, value 7
+Acc is 1254, index 36, instruction jmp, value 1
+Acc is 1254, index 37, instruction jmp, value 370
+Acc is 1254, index 407, instruction nop, value 76
+Acc is 1254, index 408, instruction acc, value 44
+Acc is 1298, index 409, instruction acc, value 43
+Acc is 1341, index 410, instruction acc, value 43
+Acc is 1384, index 411, instruction jmp, value 196
+Acc is 1384, index 607, instruction nop, value -477
+Acc is 1384, index 608, instruction acc, value 21
+Acc is 1405, index 609, instruction nop, value -92
+Acc is 1405, index 610, instruction jmp, value -263
+Acc is 1405, index 347, instruction acc, value 25
+Acc is 1430, index 348, instruction nop, value -105
+Acc is 1430, index 349, instruction acc, value -15
+Acc is 1415, index 350, instruction acc, value 34
+Acc is 1449, index 351, instruction jmp, value -6
+Acc is 1449, index 345, instruction jmp, value -329
+Acc is 1449, index 16, instruction acc, value 16
+Acc is 1465, index 17, instruction acc, value 3
+Acc is 1468, index 18, instruction acc, value 41
+Acc is 1509, index 19, instruction jmp, value 566
+Acc is 1509, index 585, instruction nop, value -489
+Acc is 1509, index 586, instruction jmp, value -490
+Acc is 1509, index 96, instruction acc, value -9
+Acc is 1500, index 97, instruction acc, value 46
+Acc is 1546, index 98, instruction jmp, value 124
+Acc is 1546, index 222, instruction jmp, value 265
+Acc is 1546, index 487, instruction acc, value -16
+Acc is 1530, index 488, instruction jmp, value -10
+Acc is 1530, index 478, instruction acc, value 2
+Acc is 1532, index 479, instruction acc, value 23
+Acc is 1555, index 480, instruction jmp, value -256
+Acc is 1555, index 224, instruction acc, value 46
+Acc is 1601, index 225, instruction acc, value -14
+Acc is 1587, index 226, instruction acc, value -17
+Acc is 1570, index 227, instruction jmp, value -19
+Acc is 1570, index 208, instruction acc, value -18
+Acc is 1552, index 209, instruction acc, value 16
+Acc is 1568, index 210, instruction acc, value -8
+Acc is 1560, index 211, instruction acc, value 6
+Acc is 1566, index 212, instruction jmp, value 104
+Acc is 1566, index 316, instruction acc, value 28
+Acc is 1594, index 317, instruction jmp, value -21
+Acc is 1594, index 296, instruction acc, value 11
+     (0, acc, -7)
+     (1, acc, 2)
+     (2, acc, 20)
+     (3, acc, 14)
+     (4, jmp, 191)
+     (195, acc, 27)
+     (196, acc, 31)
+     (197, nop, -29)
+     (198, jmp, 1)
+     (199, jmp, 250)
+     (449, jmp, -153)
+     (296, acc, 11)
+     (297, acc, -18)
+     (298, jmp, -186)
+     (112, acc, -6)
+     (113, nop, 494)
+     (114, acc, -9)
+     (115, jmp, -63)
+     (52, acc, 36)
+     (53, acc, -12)
+     (54, jmp, 50)
+     (104, nop, 178)
+     (105, acc, 12)
+     (106, acc, 45)
+     (107, jmp, 461)
+     (568, acc, 38)
+     (569, nop, -425)
+     (570, jmp, -440)
+     (130, acc, 20)
+     (131, acc, 25)
+     (132, jmp, 425)
+     (557, acc, -12)
+     (558, acc, 22)
+     (559, acc, 27)
+     (560, jmp, -176)
+     (384, acc, 0)
+     (385, jmp, -211)
+     (174, acc, 32)
+     (175, acc, 38)
+     (176, acc, 2)
+     (177, jmp, -93)
+     (84, acc, 34)
+     (85, jmp, 515)
+     (600, jmp, 1)
+     (601, nop, 43)
+     (602, jmp, -65)
+     (537, nop, -528)
+     (538, jmp, -495)
+     (43, nop, 17)
+     (44, acc, 25)
+     (45, acc, -15)
+     (46, jmp, 285)
+     (331, acc, 46)
+     (332, acc, -9)
+     (333, jmp, -174)
+     (159, jmp, 1)
+     (160, acc, 20)
+     (161, acc, 4)
+     (162, acc, 25)
+     (163, jmp, -87)
+     (76, acc, -18)
+     (77, acc, 15)
+     (78, acc, -8)
+     (79, acc, -3)
+     (80, jmp, 46)
+     (126, nop, 402)
+     (127, jmp, 381)
+     (508, jmp, -200)
+     (308, jmp, 152)
+     (460, acc, -11)
+     (461, nop, 82)
+     (462, acc, 7)
+     (463, acc, 40)
+     (464, jmp, 79)
+     (543, acc, -2)
+     (544, acc, 41)
+     (545, jmp, -475)
+     (70, acc, -4)
+     (71, jmp, 292)
+     (363, acc, -5)
+     (364, jmp, -304)
+     (60, jmp, 1)
+     (61, nop, 210)
+     (62, acc, -15)
+     (63, acc, -6)
+     (64, jmp, 446)
+     (510, acc, 8)
+     (511, acc, 48)
+     (512, acc, 15)
+     (513, acc, 0)
+     (514, jmp, -493)
+     (21, acc, 15)
+     (22, jmp, 452)
+     (474, acc, 0)
+     (475, acc, 4)
+     (476, jmp, 20)
+     (496, jmp, -67)
+     (429, acc, 48)
+     (430, acc, -3)
+     (431, jmp, -55)
+     (376, acc, 24)
+     (377, acc, -10)
+     (378, acc, 21)
+     (379, jmp, -97)
+     (282, acc, -14)
+     (283, acc, 38)
+     (284, acc, 50)
+     (285, acc, -7)
+     (286, jmp, 197)
+     (483, acc, 29)
+     (484, acc, -13)
+     (485, jmp, 77)
+     (562, acc, -15)
+     (563, acc, 14)
+     (564, acc, 30)
+     (565, acc, 0)
+     (566, jmp, -363)
+     (203, jmp, 72)
+     (275, acc, -2)
+     (276, jmp, -265)
+     (11, acc, 24)
+     (12, jmp, 220)
+     (232, jmp, 80)
+     (312, jmp, 102)
+     (414, acc, 5)
+     (415, acc, 45)
+     (416, acc, 7)
+     (417, jmp, 20)
+     (437, nop, 91)
+     (438, acc, 20)
+     (439, acc, 18)
+     (440, jmp, 4)
+     (444, nop, -230)
+     (445, nop, 45)
+     (446, acc, 37)
+     (447, jmp, 127)
+     (574, jmp, -406)
+     (168, jmp, 1)
+     (169, jmp, 1)
+     (170, jmp, 167)
+     (337, acc, 34)
+     (338, acc, 24)
+     (339, acc, 37)
+     (340, acc, 44)
+     (341, jmp, -158)
+     (183, nop, 164)
+     (184, acc, 41)
+     (185, jmp, 440)
+     (625, nop, -135)
+     (626, acc, 43)
+     (627, jmp, -236)
+     (391, jmp, -366)
+     (25, acc, 10)
+     (26, acc, -8)
+     (27, acc, 39)
+     (28, jmp, 396)
+     (424, nop, 214)
+     (425, jmp, -284)
+     (141, jmp, -108)
+     (33, nop, 181)
+     (34, acc, 48)
+     (35, acc, 7)
+     (36, jmp, 1)
+     (37, jmp, 370)
+     (407, nop, 76)
+     (408, acc, 44)
+     (409, acc, 43)
+     (410, acc, 43)
+     (411, jmp, 196)
+     (607, nop, -477)
+     (608, acc, 21)
+     (609, nop, -92)
+     (610, jmp, -263)
+     (347, acc, 25)
+     (348, nop, -105)
+     (349, acc, -15)
+     (350, acc, 34)
+     (351, jmp, -6)
+     (345, jmp, -329)
+     (16, acc, 16)
+     (17, acc, 3)
+     (18, acc, 41)
+     (19, jmp, 566)
+     (585, nop, -489)
+     (586, jmp, -490)
+     (96, acc, -9)
+     (97, acc, 46)
+     (98, jmp, 124)
+     (222, jmp, 265)
+     (487, acc, -16)
+     (488, jmp, -10)
+     (478, acc, 2)
+     (479, acc, 23)
+     (480, jmp, -256)
+     (224, acc, 46)
+     (225, acc, -14)
+     (226, acc, -17)
+     (227, jmp, -19)
+     (208, acc, -18)
+     (209, acc, 16)
+     (210, acc, -8)
+     (211, acc, 6)
+     (212, jmp, 104)
+     (316, acc, 28)
+     (317, jmp, -21)
+Acc is 1594, index 296, instruction acc, value 11
+Max instruction is 627
+Acc: 1594
