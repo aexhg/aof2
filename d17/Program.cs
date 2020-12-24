@@ -5,7 +5,7 @@ using System.Linq;
 using System;
 
 
-var filename = "./input.txt";
+var filename = "./test.txt";
 var input = File.ReadAllText(filename).Split('\n');
 {
     HashSet<Vector4> active = new();
