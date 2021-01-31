@@ -40,88 +40,88 @@ for (int i = 0; i < data.Count(); ++i)
 //     }
 // }
 
-List<string> ingredientsNoAlg = new();
+// List<string> ingredientsNoAlg = new();
 
-foreach (var (k, ings) in alergens)
-{
-    var igs = k.Split(',');
-    if (igs.Count() > 1 && igs.All(x => alergens.ContainsKey(x)))
-    {
-        HashSet<string> combined = new();
-        foreach (var ig in igs)
-        {
-            combined.UnionWith(alergens[ig]);
-        }
+// foreach (var (k, ings) in alergens)
+// {
+//     var igs = k.Split(',');
+//     if (igs.Count() > 1 && igs.All(x => alergens.ContainsKey(x)))
+//     {
+//         HashSet<string> combined = new();
+//         foreach (var ig in igs)
+//         {
+//             combined.UnionWith(alergens[ig]);
+//         }
 
-        var notContained = new HashSet<string>(ings);
-        notContained.ExceptWith(combined);
-        ingredientsNoAlg.AddRange(notContained);
+//         var notContained = new HashSet<string>(ings);
+//         notContained.ExceptWith(combined);
+//         ingredientsNoAlg.AddRange(notContained);
 
-        foreach (var ig in igs)
-        {
-            HashSet<string> uncombined = new(alergens[ig]);
-            uncombined.ExceptWith(alergens[k]);
-            if (uncombined.Count() > 0)
-            {
-                foreach (var (k2, v2) in alergens)
-                {
-                    if (k2 != k && !k.Contains(k2))
-                    {
-                        HashSet<string> modUncombined = new(uncombined);
-                        foreach (var c in uncombined)
-                        {
-                            if (v2.Contains(c))
-                            {
-                                modUncombined.Remove(c);
-                            }
-                        }
-                        uncombined = new(modUncombined);
-                    }
-                }
-                ingredientsNoAlg.AddRange(uncombined);
+//         foreach (var ig in igs)
+//         {
+//             HashSet<string> uncombined = new(alergens[ig]);
+//             uncombined.ExceptWith(alergens[k]);
+//             if (uncombined.Count() > 0)
+//             {
+//                 foreach (var (k2, v2) in alergens)
+//                 {
+//                     if (k2 != k && !k.Contains(k2))
+//                     {
+//                         HashSet<string> modUncombined = new(uncombined);
+//                         foreach (var c in uncombined)
+//                         {
+//                             if (v2.Contains(c))
+//                             {
+//                                 modUncombined.Remove(c);
+//                             }
+//                         }
+//                         uncombined = new(modUncombined);
+//                     }
+//                 }
+//                 ingredientsNoAlg.AddRange(uncombined);
 
-            }
+//             }
 
-        }
-    }
-}
+//         }
+//     }
+// }
 
-ingredientsNoAlg = ingredientsNoAlg.Distinct().ToList();
-int count = 0;
-foreach(var (k, igl) in ingredientsList)
-{
-    var hs1 = new HashSet<string>(igl);
-    var hs2 = new HashSet<string>(ingredientsNoAlg);
-    hs1.IntersectWith(hs2);
-    count += hs1.Count();
-}
+// ingredientsNoAlg = ingredientsNoAlg.Distinct().ToList();
+// int count = 0;
+// foreach(var (k, igl) in ingredientsList)
+// {
+//     var hs1 = new HashSet<string>(igl);
+//     var hs2 = new HashSet<string>(ingredientsNoAlg);
+//     hs1.IntersectWith(hs2);
+//     count += hs1.Count();
+// }
 
-Console.WriteLine(count);
+// Console.WriteLine(count);
 
-    // foreach(var (alerg, igs) in alergens)
-    // {
-    //     foreach(var a in igs)
-    //     {
-    //         bool inOthers = false;
-    //         foreach(var (oalerg, oigs) in alergens)
-    //         {
-    //             if(!oalerg.Equals(alerg))
-    //             {
-    //                 if(oigs.Contains(a))
-    //                 {
-    //                     inOthers = true;
-    //                     break;
-    //                 }
-    //             }
-    //             if(inOthers)
-    //             {
-    //                 break;
-    //             }
-    //         }
-    //         if(!inOthers)
-    //         {
-    //             ingredientsNoAlg.Add(a);
-    //         }
-    //     }
-    // }
-    Console.WriteLine("h");
+//     // foreach(var (alerg, igs) in alergens)
+//     // {
+//     //     foreach(var a in igs)
+//     //     {
+//     //         bool inOthers = false;
+//     //         foreach(var (oalerg, oigs) in alergens)
+//     //         {
+//     //             if(!oalerg.Equals(alerg))
+//     //             {
+//     //                 if(oigs.Contains(a))
+//     //                 {
+//     //                     inOthers = true;
+//     //                     break;
+//     //                 }
+//     //             }
+//     //             if(inOthers)
+//     //             {
+//     //                 break;
+//     //             }
+//     //         }
+//     //         if(!inOthers)
+//     //         {
+//     //             ingredientsNoAlg.Add(a);
+//     //         }
+//     //     }
+//     // }
+//     Console.WriteLine("h");

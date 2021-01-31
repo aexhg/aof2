@@ -13,10 +13,10 @@ for(long l = max; l <= 1_000_000; ++l)
     input.AddLast(l);
 }
 var t = DateTime.Now;
-Moves(input, 10_000_000);
+var d = Moves(input, 10_000_000);
 //WriteLine(string.Join(",", input));
 
-var idx = input.Find(1);
+var idx = d[1];
 
 WriteLine(idx.Value);
 var idxm1=idx.Next;
@@ -44,7 +44,7 @@ WriteLine($"{DateTime.Now - t}");
 // WriteLine(output);
 
 
-void Moves(LinkedList<long> numbers, int N)
+Dictionary<long, LinkedListNode<long>> Moves(LinkedList<long> numbers, int N)
 {
     var idx = numbers.First;
     int rounds = 0;
@@ -65,6 +65,8 @@ void Moves(LinkedList<long> numbers, int N)
     {
         long n = idx.Value;
         var destination = n - 1;
+
+
         for(int i = 0; i < 3; ++i)
         {
             var t = (idx.Next ?? numbers.First).Value;
@@ -73,7 +75,7 @@ void Moves(LinkedList<long> numbers, int N)
             nodes.Remove(t);
         }
 
-        bool findDestination = hs.Contains(destination) || !nodes.ContainsKey(destination);
+        bool findDestination = !nodes.ContainsKey(destination);
 
         while(findDestination)
         {
@@ -82,7 +84,7 @@ void Moves(LinkedList<long> numbers, int N)
             {
                 destination = max;
             }
-            findDestination = hs.Contains(destination) || !nodes.ContainsKey(destination);
+            findDestination = !nodes.ContainsKey(destination);
         }
 
         var destIdx = nodes[destination];
@@ -96,7 +98,7 @@ void Moves(LinkedList<long> numbers, int N)
         idx = idx.Next ?? numbers.First;
         ++rounds;
     }
-
+    return nodes;
     
 
 }
